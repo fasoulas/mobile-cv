@@ -1,0 +1,9 @@
+#version 0.2
+
+CACHE MANIFEST
+index.html
+css/jquery.mobile-1.0a2.min.css
+css/images/icons-18-white.png
+js/jquery-1.4.4.min.js
+js/jquery.mobile-1.0a2.min.js
+

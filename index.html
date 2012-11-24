@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html manifest="manifest.cache">
+<head>
+	<link rel="shortcut icon" href="http://fasoulas.com/vas.ico" />
+	<meta charset="utf-8" />
+	<title>Vasileios Fasoulas</title>
+	<!-- externallu hosted	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script><script type="text/javascript" src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
+	-->
+	<!-- own hosted -->
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.0a2.min.css" />
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.0a2.min.js"></script>
+
+	<style type="text/css" media=screen>
+	.statement {
+		font-weight:100; font-size:0.8em; color:black;
+	}
+	</style>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-431414-4']);
+  _gaq.push(['_setDomainName', '.fasoulas.com']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime');
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100);
+  }
+</script>
+
+</head> 
+<body> 
+<div data-role="page" data-theme="b" id="home">
+	<div data-role="header">
+		<h1>Vasileios Fasoulas</h1><a  class='ui-btn-right' href="http://www.fasoulas.com/home.html">Web</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">About Me</li>
+			<li><a href="#work" >Work</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#technology">Technology</a></li>
+		</ul>
+		
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Links</li>
+			<li><a href=" http://uk.linkedin.com/in/fasoulas" target="_blank" onClick="recordOutboundLink(this, 'Mobile Outbound Links', 'linkedin.com');return false;">My LinkedIn</a></li>
+			<li><a href="http://www.twitter.com/fasoulas/" target="_blank" onClick="recordOutboundLink(this, 'Mobile Outbound Links', 'twitter.com');return false;">My Twitter</a></li>
+			<li><a href="http://www.fasoulas.posterous.com" target="_blank" onClick="recordOutboundLink(this, 'Mobile Outbound Links', 'posterous.com');return false;">My Posterous</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+
+
+<div data-role="page" data-theme="b" id="education">
+	<div data-role="header">
+		<a href='#home' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Education</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Universities</li>
+			<li><a href="#city-uni" >City University</a></li>
+			<li><a href="#brighton">Brighton University</a></li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="technology">
+	<div data-role="header">
+		<a href='#home' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Technology</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Areas</li>
+			<li><a href="#architecture" >Architecture</a></li>
+			<li><a href="#web">Web</a></li>
+			<li><a href="#cloud">Cloud</a></li>
+			<li><a href="#mobile">Mobile</a></li>
+			<li><a href="#databases">Databases</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<div data-role="page" data-theme="b" id="work">
+	<div data-role="header">
+		<a href='#home' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Work</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Industries</li>
+			<li><a href="#media">Media</a></li>
+			<li><a href="#finance">Finance</a></li>
+			<li><a href="#consultancy">Consultancy</a></li>
+			<li><a href="#academia">Academia</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div data-role="page" data-theme="b" id="media">
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Media</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Companies</li>
+			<li><a href="#ry">Radley Yeldar</a></li>
+			<li><a href="#bbc">BBC Worldwide</a></li>
+			<li><a href="#vccp">VCCP</a></li>
+			<li><a href="#rga">R/GA</a></li>
+			<li><a href="#razorfish">Razorfish</a></li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="finance">
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Finance</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Companies</li>
+			<li><a href="#lcg">London Capital Group</a></li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="consultancy">
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Consultancy</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Companies</li>
+			<li><a href="#defra">Defra</a></li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="academia">
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Academia</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Companies</li>
+			<li><a href="#city">City Univercity</a></li>
+			<li><a href="#cern">CERN</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<div data-role="page" data-theme="b" id="ry">
+        <div data-role="header">
+                <a href='#media' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Radley Yeldar</h1><a href="#home">Home</a>
+
+        </div>
+        <div data-role="content">
+                <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+                        <li data-role="list-divider">Role - Technical Director</li>
+
+                        <li class="statement">Overseeing the delivery of all digital media projects</li>
+			<li class="statement">Lead the development team, ensuring digital work matches briefs, specs, timings and budget
+</li>
+			<li class="statement">Sourcing and management of third party suppliers</li>
+                </ul>
+        </div>
+</div>
+
+
+<div data-role="page" data-theme="b" id="bbc">
+	<div data-role="header">
+		<a href='#media' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>BBC Worldwide</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Technical Architect</li>
+			
+			<li class="statement">Technical authority for B2C web sites TopGear & BBCGoodFood. Advising on technical feasibility, impacts, timelines, roadmap & delivery approach</li>
+			<li class="statement">Have a portfolio of other projects ranging primarily around 3rd party integration of systems. This varies from Apple store sales data acquisition to marketing analysis web dashboards</li>
+			<li class="statement">Involved in a number of B2B projects around digital media delivery (digital backbone for asset ingestion, management, enrichment etc.)</li>
+		</ul>
+	</div>
+</div>
+
+
+<div data-role="page" data-theme="b" id="vccp">
+	<div data-role="header">
+		<a href='#media' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>VCCP</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Technical Director</li>
+			<li class="statement">Responsible for overall technology strategy and technical delivery. Spanning development and qa processes, vendors, tools, third party systems and staffing</li>
+			<li class="statement">Hands-on involvement in virtualisation environments, critical projects launches, and the occasional 11th hour firefighting </li>
+			<li class="statement">Technical authority / sign off of technical scopes, timelines & designs. Also responsible for staffing of tech architects & front/back end developers </li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="rga">
+	<div data-role="header">
+		<a href='#media' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>R/GA</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Senior Tech Lead & Solution Architect</li>
+			<li class="statement">Led technical workshops with clients and third party vendors, with emphasis on requirements of architectural significance.Developed and presented solutions satisfying these requirements to clients (CTO and CMO) </li>
+			<li class="statement">Architected and solely built version 0.1 of a device notification platform based on JMS and push technology for mobile devices </li>
+			<li class="statement">Developed a services layer offering storage (files and records) through Amazon services (SimpleDB & Simple Storage). This layer was reused in multiple projects cutting down costs </li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="razorfish">
+	<div data-role="header">
+		<a href='#media' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Razorfish</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Technical Architect</li>
+			<li class="statement">Run a portfolio of SharePoint projects spanning technical discovery, design, overseeing development, security testing, deployment and going live. Also managed SP migrations across global client-run infrastructure</li>
+			<li class="statement">Lead development of a high profile RIA project in Silverlight, supported by a AAA accessible web version. Managed offshore development as part of this and collaboarated with other offices in US and Hong Kong </li>
+			<li class="statement">Contributor to the company's software configuration group, addressing process improvement on development and deployment (mostly .NET technologies) </li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="city-uni">
+	<div data-role="header">
+		<a href='#education' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>City University</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">MSc Business Systems Analysis & Design</li>
+			<li class="statement">Graduated my MSc cource in 2004 with distinction</li>
+			<li class="statement">My thesis: "Web Services Monitoring" was awarded the prize for the best project of the year</li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="brighton">
+	<div data-role="header">
+		<a href='#education' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Brighton University</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">BSc Software Engineering</li>
+			<li class="statement">Graduated a 4 year sandwich cource (BSc Hons 2:1)</li>
+			<li class="statement">My thesis was: "Web Services - which is their role in enterprices"</li>
+			<li class="statement">As part of my cource I spent 18 months working at CERN; at control applications division</li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="lcg">
+	
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>London Capital Group</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Java Technical Expert (Freelance)</li>
+			<li class="statement">Brought in to review the current architecture of an inhouse trading tool (java based backend with excel based front end) incorporating use of BetfairAPI for market data and trading</li>
+			<li class="statement">Focused on the use of commercial activeX-Java gateways (JIntegra) to resolve current threading issues and system limitations </li>
+			<li class="statement">Designed the architecture for the next version of the tool and prototyped the new functionality</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="defra">
+	<div data-role="header">
+		<a href='#work' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Defra</h1><a href="#home">Home</a>
+
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Business Analyst (Consultant)</li>
+			<li class="statement">Working with Morbus Consulting for DEFRA, developed the information strategy for the National Emergency Epidemiology Group (NEEG) to improve epidemiological datasets and information flow</li>
+			<li class="statement">Acted as an independent technical reviewer for IS projects submitted for funding to other departments</li>
+			<li class="statement">Run client workshops, elicited core user requirements and developed use cases and technical requirements, covering both functional and non-functional aspects for a number of information systems</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="city">
+	<div data-role="header">
+		<a href='#academia' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>City University</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - SOA Researcher & Visiting Tutor</li>
+			<li class="statement">Developed a framework in Java (using XML binding technologies ) to map BPEL processes into java object graphs (automata) for comparison of web service behavior models</li>
+			<li class="statement">Implemented a graph matching algorithm (VF2) selected from scientific literature and adapted it to be used for comparison of data types (defined in WSDL and XSD schemas) for services</li>
+			<li class="statement">Tutor for a number of modules: Systems Architecture, Software Design, Advanced Databases, Object Oriented programming in C++, E-commerce (PHP based web application development)</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="cern">
+	<div data-role="header">
+		<a href='#academia' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>CERN</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Role - Software Engineer</li>
+			<li class="statement">Investigated  ActiveX - Java gateways, both open source and commercial offerings</li>
+			<li class="statement">Lead designer and developer of a system to use in house middleware technologies to support 
+	near real-time interactive control and monitoring of particle accelerators using Excel as a front end.
+	I delivered the first version of the system and authored its technical design and user manual</li>
+			<li class="statement">As principal evaluator of new IT technologies for adoption by the division, 
+	I conducted a comparative analysis of scripting languages for java integration, 
+	including an analysis of existing systems - and proposal of replacements and migration procedures</li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="architecture">
+	<div data-role="header">
+		<a href='#technology' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Architecture</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Experience</li>
+			<li class="statement">Solid software engineering background, strong supporter of doing architecture right even in agile environments (yes it is possible)</li>
+			<li class="statement">Worked with n-tier architectures, service oriented architectures & message oriented architectures (BPEL, SOAP, REST, AWS, JMS, Salesforce)</li>
+			<li class="statement">Involved in architecture across all tiers, from services and data tier to front end e.g. front end MVC acpplication via JavascriptMVC</li>
+			<li class="statement">Interested in highly scalable architectures (facebook,ebay) and space based architectures(Gigaspaces)</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="web">
+	<div data-role="header">
+		<a href='#technology' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Web</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Experience</li>
+			<li class="statement">Delivered web solutions using midweight CMS (SharePoint), lightweight open source platforms (Drupal & Wordpress) and  MVC PHP frameworks</li>
+			<li class="statement">Strong interest in content repositories and related standards in conjunction with portal technologies (Alfresco,Liferay,REST based extensions)</li>
+			<li class="statement">Advocate of HTML5 and RAD technologies like (G)rails, coupled with scalable architetcures, powered by java based application servers (JBoss)</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="cloud">
+	<div data-role="header">
+		<a href='#technology' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Cloud</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Experience</li>
+			<li class="statement">Designed, costed & delivered Amazon based solutions utilising most amazon services (EC2,S3,RDS,Cloudfront,SimpleDB)</li>
+			<li class="statement">Some experience (prototyping) with the Google App Engine. Familiar with its constraints and gotchas</li>
+			<li class="statement">Currently looking at Microsoft Azure as an alternative to Amazon, focusing on its multi tennancy capabilities</li>
+		</ul>
+	</div>
+</div>
+<div data-role="page" data-theme="b" id="mobile">
+	<div data-role="header">
+		<a href='#technology' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Mobile</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Experience</li>
+			<li class="statement">Worked with 3rd parties to produce multi platform mobile apps, complementary to web platforms, and integrated with network providers back end systems (messaging & billing)</li>
+			<li class="statement">Selected Android as a platform of choice for mobile apps due to heavy Java background</li>
+			<li class="statement">Looking to leverage prior Silverlight knowledge for Windows Mobile application development</li>
+			<li class="statement">Prioritising mobile web & HTML5 vs. platform specific apps</li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" data-theme="b" id="databases">
+	<div data-role="header">
+		<a href='#technology' class='ui-btn-left' data-icon='arrow-l' >Back</a><h1>Databases</h1><a href="#home">Home</a>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+			<li data-role="list-divider">Experience</li>
+			<li class="statement">From a relational database background (mySQL, MS SQL server) & supporter of ORM tools (hibernate, nhibernate, linq, doctrine)</li>
+			<li class="statement">Knowledge of NOSQL options (Column, Document, Key/Value store) such as Cassandra, MongoDB, Redis</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
